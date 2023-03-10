@@ -1,0 +1,73 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+;
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #fdf8e1;
+    background-color: #edf2f4
+}
+.hero {
+    height: 500px;
+    background-image: url(images/boardwalk3.jpeg);
+    background-size: cover;
+    padding: 30px 0px;
+    text-shadow: 0px 0px 6px #14213D;
+    font-size: 32px;
+    padding-top: 200px;
+    
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.activities-container {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    color: #0a2239;
+    margin-top: 100px;
+} 
+.activities {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#activities-title {
+    color: #0a2239;
+    font-style: italic;
+    padding: 20px 0px 20px 0px;
+    margin-top: 50px;
+}
+
+#guide-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 0px;
+    box-shadow: 6px 6px #0a2239; 
+}
+
+#guide {
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #0a2239;
+    border-bottom-color: 4px #fdf8e1;
+    background-color: #daf0ee;
+    
+}
